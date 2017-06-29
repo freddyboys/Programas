@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Budget Rental Car</div>
+        
+       
+        
+        <div>
+            <!--
+        <script language =javascript>
+            
+            var x={"CustomerCode":"1001"}
+            alert(x.CustomerCode);
+
+
+        </script>-->
+                 
+            
+        </div>
+        <div>
+            <form name="form1" method="post" action="rent.jsp">
+           
+            
+       
+                <input type="text" name="date" size="20" id="rentDate"   ><br>
+          
+        <input type="text" name="car" size="20" id="CarValue" ><br>
+        
+        <input type="text" name="model" size="20" id="ModelValue" ><br>
+        
+        <input type="text" name="member" size="20" id="MemberValue" ><br>
+        
+        <input type="text" name="age" size="20" id="AgeValue" ><br>
+        
+        <script language =javascript>
+            
+          //  var x={"CustomerCode":"1001", "Customer":"yu"}
+            var RentPoints={"rentDates":["2017-11-19T05:00:00.000Z",
+                    "2017-11-20T05:00:00.000Z",
+                    "2017-11-21T05:00:00.000Z"], "car":"Sport", "model":"Cherato","membership":false,"age":24}
+           // alert(x.CustomerCode);
+           rentdate=RentPoints.rentDates;
+           countDays=rentdate.length;
+           carvalue=RentPoints.car;
+           modelvalue=RentPoints.model;
+           membership=RentPoints.membership;
+           agevalue=RentPoints.age;
+           
+           
+           //y="hola";
+             document.getElementById("rentDate").value =countDays;
+              document.getElementById("CarValue").value =carvalue;
+              document.getElementById("ModelValue").value =modelvalue;
+              document.getElementById("MemberValue").value =membership;
+              document.getElementById("AgeValue").value =agevalue;
+            
+
+        </script>
+   <!-- <button type="Submit" name=submit value="Submit"></button> -->
+   <button type="submit">Click Me!</button> 
+</form>
+        </div>
+
+
+    </body>
+</html>
